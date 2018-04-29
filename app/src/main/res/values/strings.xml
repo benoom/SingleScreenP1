@@ -1,16 +1,16 @@
 <resources>
     <string name="app_name">P1BusinessAd</string>
     <!-- Name of the business. -->
-    <string name="business_name">Robby's Ridiculous Ramen</string>
+    <string name="business_name">Robby\'s Ridiculous Ramen</string>
     <!-- Recommendation for the restaurant from our best critic Buddy. -->
-    <string name="recommendation">World's Best Ramen! -Buddy</string>
+    <string name="recommendation">World\'s Best Ramen! - Buddy</string>
     <!-- Description for the restaurant. -->
     <string name="description">Offering 3 different choices of broth. All locally sourced and fresh ingredients.</string>
     <!-- Restaurant's phone number. -->
-    <string name="phone_number">458-123-4567</string>
+    <string name="phone_number">458&#8211;123&#8211;4567</string>
     <!-- Restaurant's address. -->
     <string name="address">123 Best Ramen Ave, Portland, OR 97400</string>
-    <!-- Restaurant's website/URL. -->
+    <!-- Restaurant's website/URL -->
     <string name="website">www.bestramen.com</string>
 </resources>
 
