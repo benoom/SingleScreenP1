@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+    <ImageView
+        android:id="@+id/ramen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ramen" />
+
+    <TextView
+        android:id="@+id/business_name"
+        style="@style/TextView"
+        android:layout_below="@id/ramen"
+        android:layout_marginBottom="10dp"
+        android:text="@string/business_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/description"
+        style="@style/TextView"
+        android:layout_below="@id/business_name"
+        android:layout_marginBottom="10dp"
+        android:text="@string/description"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/recommendation"
+        style="@style/TextView"
+        android:layout_below="@id/description"
+        android:layout_marginTop="10dp"
+        android:text="@string/recommendation"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/phone"
+        style="@style/TextView"
+        android:layout_above="@id/address"
+        android:layout_marginBottom="5dp"
+        android:text="@string/phone_number"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/address"
+        style="@style/TextView"
+        android:layout_above="@id/website"
+        android:layout_marginBottom="5dp"
+        android:text="@string/address"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/website"
+        style="@style/TextView"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:text="@string/website"
+        android:textAppearance="?android:textAppearanceLarge" />
+</RelativeLayout>
