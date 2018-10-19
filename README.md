@@ -9,7 +9,7 @@ This app acts as a single screen advertisement for a fictional restaurant.
 * Android Support Repository v27.1.1
 
 ## Getting Started
-This sample uses the Gradle build system. To build this project, use the "gradlew build" command or use "Import Project" in Android Studio.
+This project uses the Gradle build system. To build this project, use the "gradlew build" command or use "Import Project" in Android Studio.
 
 ## Contributing and Support
 Patches are encouraged, and may be submitted by forking this project and submitting a pull request through GitHub.
